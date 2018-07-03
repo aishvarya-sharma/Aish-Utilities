@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PdfMerger/obj/Debug
+/obj
+/bin
+/.vs
+/packages
+/PdfMerger/bin/Debug/app.publish
+/PdfMerger/bin/Debug
