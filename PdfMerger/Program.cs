@@ -40,8 +40,8 @@ namespace PdfMerger
 
         static void printUsage()
         {
-            Trace.WriteLine("Merges PDFs locally. PDFs are NOT uploaded to Internet and data remains private.");
-            Trace.WriteLine("Usage: Pdfmerge.exe <outputfile.pdf> <file1> <file2> ...");
+            Trace.WriteLine("Merges PDFs locally. PDFs are NOT uploaded to Internet and data remains private. output written to output.pdf");
+            Trace.WriteLine("Usage: Pdfmerge.exe <file1> <file2> ...");
         }
 
         static void doFileCheck(IEnumerable<string> files)
